@@ -339,6 +339,9 @@
   .gap-x-4 {
     column-gap: calc(var(--spacing) * 4);
   }
+  .gap-x-7 {
+    column-gap: calc(var(--spacing) * 7);
+  }
   .gap-x-10 {
     column-gap: calc(var(--spacing) * 10);
   }
@@ -347,6 +350,9 @@
   }
   .gap-y-5 {
     row-gap: calc(var(--spacing) * 5);
+  }
+  .gap-y-6 {
+    row-gap: calc(var(--spacing) * 6);
   }
   .gap-y-7 {
     row-gap: calc(var(--spacing) * 7);
@@ -468,6 +474,18 @@
   .py-25 {
     padding-block: calc(var(--spacing) * 25);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
+  .py-40 {
+    padding-block: calc(var(--spacing) * 40);
+  }
+  .py-50 {
+    padding-block: calc(var(--spacing) * 50);
+  }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
@@ -485,6 +503,9 @@
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-15 {
+    padding-bottom: calc(var(--spacing) * 15);
   }
   .pb-18 {
     padding-bottom: calc(var(--spacing) * 18);
@@ -529,6 +550,9 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
   .text-\[30px\] {
     font-size: 30px;
   }
@@ -548,6 +572,9 @@
   }
   .text-\[\#A7A7A7\] {
     color: #A7A7A7;
+  }
+  .text-\[2\] {
+    color: 2;
   }
   .text-green-400 {
     color: var(--color-green-400);
